@@ -5,6 +5,8 @@ import { UserModule } from "./user/user.module";
 import { BookingModule } from "./booking/booking.module";
 import { RoomModule } from "./room/room.module";
 import { AuthModule } from "./Auth/auth.module";
+import { LoginModule } from "./Login/login.module";
+import { SignupModule } from "./Signup/signup.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,6 +28,8 @@ import { AuthModule } from "./auth/auth.module";
     BookingModule,
     RoomModule,
     AuthModule,
+    LoginModule,
+    SignupModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
